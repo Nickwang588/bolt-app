@@ -48,8 +48,7 @@
       "expo-router",
       "expo-font",
       "expo-web-browser",
-      "./plugins/with-kidsguard-native"
-    ],
+         ],
     "experiments": {
       "typedRoutes": true
     },
