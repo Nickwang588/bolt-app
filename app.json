@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "KidsGuard",
-    "slug": "kidsguard",
+    "name": "game manager",
+    "slug": "gamemanager",
     "version": "1.0.0",
     "android": {
       "package": "com.demo.kidsguard"
