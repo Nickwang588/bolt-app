@@ -34,6 +34,14 @@
         "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
         "android.permission.SCHEDULE_EXACT_ALARM"
       ],
+     "queries": {
+    "intentFilters": [
+      {
+        "action": "android.intent.action.MAIN",
+        "category": "android.intent.category.LAUNCHER"
+      }
+    ]
+  }
     },
     "web": {
       "bundler": "metro",
