@@ -4,7 +4,6 @@
     "slug": "kids-game-guard",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/images/icon.png",
     "scheme": "kidsguard",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -19,11 +18,7 @@
     "android": {
       "package": "com.kidsguard.app",
       "versionCode": 1,
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
-        "backgroundColor": "#7DD3C0"
-      },
-      "permissions": [
+        "permissions": [
         "android.permission.QUERY_ALL_PACKAGES",
         "android.permission.PACKAGE_USAGE_STATS",
         "android.permission.SYSTEM_ALERT_WINDOW",
