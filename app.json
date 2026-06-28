@@ -8,7 +8,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "kidsguard",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "androidStatusBar": {
       "barStyle": "dark-content",
       "backgroundColor": "#FFFFFF",
