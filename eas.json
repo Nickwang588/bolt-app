@@ -16,9 +16,7 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "minSdkVersion": 24,
-        "targetSdkVersion": 35
+        "gradleCommand": ":app:assembleRelease"
       },
       "env": {
         "EXPO_PUBLIC_SUPABASE_URL": "https://0ec90b57d6e95fcbda19832f.supabase.co",
@@ -28,9 +26,7 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "minSdkVersion": 24,
-        "targetSdkVersion": 35
+        "gradleCommand": ":app:assembleRelease"
       },
       "env": {
         "EXPO_PUBLIC_SUPABASE_URL": "https://0ec90b57d6e95fcbda19832f.supabase.co",
@@ -42,4 +38,3 @@
     "production": {}
   }
 }
-
