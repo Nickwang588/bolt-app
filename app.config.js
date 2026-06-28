@@ -1,8 +1,9 @@
-export default {
-  ...config,
+const expoConfig = require('./app.json');
+
+module.exports = {
+  ...expoConfig.expo,
   android: {
-    ...config.android,
-    // 往 AndroidManifest.xml 注入 <queries> 使 QUERY_ALL_PACKAGES 生效（Android 11+）
+    ...expoConfig.expo.android,
     intentFilters: [
       {
         action: 'android.intent.action.MAIN',
