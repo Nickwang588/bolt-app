@@ -34,10 +34,6 @@
         "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
         "android.permission.SCHEDULE_EXACT_ALARM"
       ],
-      "minSdkVersion": 24,
-      "compileSdkVersion": 35,
-      "targetSdkVersion": 35,
-      "usesCleartextTraffic": false
     },
     "web": {
       "bundler": "metro",
